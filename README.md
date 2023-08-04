@@ -65,7 +65,15 @@ Use `localhost:3001/api/products`, `localhost:3001/api/tags`, or `localhost:3001
 
 Here are the video demostration for the Express call of products, tags and categories (Notice how I created different Express calls for each route in the demostration):
 
+[ECommerce DB Categories.webm](https://github.com/cmdnguyen/ECommerce-Database/assets/131038401/5558461d-1dea-4d24-abc9-9e9d5e3cb99e)
 
+---
+
+[ECommerce DB Tags.webm](https://github.com/cmdnguyen/ECommerce-Database/assets/131038401/752d63c7-5724-4879-9cb5-45a3d79ea04c)
+
+---
+
+[ECommerce DB Products.webm](https://github.com/cmdnguyen/ECommerce-Database/assets/131038401/0acb638b-7f70-4f2d-99ca-d3178ff4d78b)
 
 ---
 
