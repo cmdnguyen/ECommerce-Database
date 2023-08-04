@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a database for an e-commerce site using Express and Sequelize. 
+This is a database for an e-commerce site using Express and Sequelize. This is used to keep track of inventory 
 
 ## Table of Contents
 
