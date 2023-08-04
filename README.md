@@ -39,7 +39,7 @@ There's a `.env.EXAMPLE` as a reference when you create your `.env` file. You wi
 
 Once your `.env` file is created, go into the MySQL terminal with this command:
 
-    mysql -u root -p
+    mysql -u (MySql username) -p
 
 Once you are in the terminal, put the following in order to source the schema and exit the MySQL terminal:
 
@@ -50,14 +50,16 @@ Now that you have sourced the schema into the database, you will need to source 
 
     npm run seed
 
-## Usage
-
-Once everything is installed, you can start the server. You can use either of these commands to start the `server.js` file.
+Once you have sourced and seeded the database, you can start the server. You can use either of these commands to start the `server.js` file.
 
     npm start
     node server
 
 You should get the following message: `App listening on port 3001!` That means the server is up and running in `localhost:3001`.
+
+Here's a video demostration to help walkthrough to create the `.env` file, sourcing and seeding the database and starting up the server:
+
+## Usage
 
 Open up Insomnia to access and manipulate the database. 
 
