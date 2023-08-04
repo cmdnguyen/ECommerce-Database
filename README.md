@@ -4,7 +4,9 @@
 
 ## Description
 
-This is a database for an e-commerce site using Express and Sequelize. This is used to keep track of inventory 
+This is a database for an e-commerce site using Express and Sequelize. This is used to manage inventory by creating, updating and deleting from the database. It's the back-end way to keep track of items and organizing it by products, tags and categories.
+
+Once I was able to understand to use the Models and importing them to my routes, I applied the concept and worked on the routes. The PUT routes for each were difficult, but I was able to understand how it works and applied it to my code.
 
 ## Table of Contents
 
@@ -33,7 +35,7 @@ Users will need to initizalize npm and install the packages needed to run the pr
 
 Before you can access the database through Sequelize, you will need to create `.env` file. Users will have to create a new file called `.env`. 
 
-There's a `.env.EXAMPLE` for you to copy into the `.env` file. Users will have to put their MySQL username and password as a string in the `.env` file.
+There's a `.env.EXAMPLE` as a reference when you create your `.env` file. You will have to put their MySQL username and password as a string in the `.env` file.
 
 Once your `.env` file is created, go into the MySQL terminal with this command:
 
@@ -48,17 +50,7 @@ Now that you have sourced the schema into the database, you will need to source 
 
     npm run seed
 
-
-Here's a video demostrating how to create an `.env` file and source the schema and seeds into the database:
-
-
 ## Usage
-
-Here's a video demostration of the application (Notice how I created different Express calls for each route in the demostration):
-
-
-
----
 
 Once everything is installed, you can start the server. You can use either of these commands to start the `server.js` file.
 
@@ -70,6 +62,12 @@ You should get the following message: `App listening on port 3001!` That means t
 Open up Insomnia to access and manipulate the database. 
 
 Use `localhost:3001/api/products`, `localhost:3001/api/tags`, or `localhost:3001/api/categories` in the URL.
+
+Here are the video demostration for the Express call of products, tags and categories (Notice how I created different Express calls for each route in the demostration):
+
+
+
+---
 
 ## Credits
 
