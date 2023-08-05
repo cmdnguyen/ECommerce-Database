@@ -1,11 +1,11 @@
+// Import Node packages and path files
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
-
+// GET route for tag
 router.get('/', async (req, res) => {
-  // find all tags
-  // be sure to include its associated Product data
+  // finds all tags and includes associated Product data
   try {
     const tagData = await Tag.findAll({
       include: [Product],
@@ -16,9 +16,9 @@ router.get('/', async (req, res) => {
   }
 });
 
+// GET route for tag by id
 router.get('/:id', async (req, res) => {
-  // find a single tag by its `id`
-  // be sure to include its associated Product data
+  // find a single tag by its `id`and includes associated Product data
   try {
     const tagData = await Tag.findByPk(req.params.id, {
       include: [Product],
@@ -29,6 +29,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// POST route for tag
 router.post('/', async (req, res) => {
   // create a new tag
   try {
@@ -39,6 +40,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+// PUT route for tag by id
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   const tagId = req.params.id
@@ -56,6 +58,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// DELETE route for tag by id
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   try {
