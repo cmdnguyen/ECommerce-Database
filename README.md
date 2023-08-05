@@ -59,6 +59,11 @@ You should get the following message: `App listening on port 3001!` That means t
 
 Here's a video demostration to help walkthrough to create the `.env` file, sourcing and seeding the database and starting up the server:
 
+
+https://github.com/cmdnguyen/ECommerce-Database/assets/131038401/85fbc0e9-600c-4370-a63c-1797398f420b
+
+
+
 ## Usage
 
 Open up Insomnia to access and manipulate the database. 
